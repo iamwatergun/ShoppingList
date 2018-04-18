@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "383132983800",
+    "firebase_url": "https://shoopinglistapp.firebaseio.com",
+    "project_id": "shoopinglistapp",
+    "storage_bucket": "shoopinglistapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:383132983800:android:9ddc8f893854038d",
+        "android_client_info": {
+          "package_name": "firebase.com.shoppinglistapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "383132983800-6e04bbs4jn5g1ms4i1nkb984f6b64tcg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAAi0Kg5PfKRsX6P-Etw4w85mtl-_-pU54"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
