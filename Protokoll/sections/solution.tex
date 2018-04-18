@@ -1,5 +1,5 @@
 %!TEX root=../document.tex
-\section{Vergleich}
+\section{Vergleich Schnittstellen}
 \subsection{Firebase}
 Firebase biete eine synchrone Plattform um Apps zu entwickeln. Der Grundgedanke hinter Firebase ist die Entwicklung mit häufigen live-Updates (also während der Laufzeit). Die Daten in Firebase Datenbank werden als JSON Files abgespeichert. Außerdem ist die Firebase DB in der CLoud und somit kann von überall ein Zugriff erfolgen.
 
@@ -27,6 +27,21 @@ DeltaDB ist ähnlich zu Firebase weist jedoch ein paar Unterscheide auf:
 	\item Hoch Verfügbar
 	
 \end{itemize}
+\section{Architektur}
+\subsection{Client Server Architektur}
+Bei einer Verbidung über das Internet gibt es immer einen Host (Server), welcher Daten oder Dienste für den andern Host (Client) bereitstellt. Der Server reagiert und antwortet auf Anfragen während der Client diese an ihn stellt.
+
+ \begin{figure}[!h]
+ 	\centering
+ 	\includegraphics[width=0.7\linewidth]{images/cs}
+ 	\caption{Clent-Serevr Architektur}
+ 	\label{fig:clientserver}
+ \end{figure}
+
+Ein großer Vorteil dieser Architektur ist die Skalierbarkeit . Es können Problemlos weitere Clients, Server, oder andere Netzwerksegmente hinzugefügt werden. 
+Nur 1 Server bedeutet auch, dass nur eine Sicherheitskomponente geschützt werden muss.
+
+Ein Ausfall des Servers würde dann jedoch zum Ausfall des Services und des gesamten Netzes führen, da dieser die Zentral Komponente bildet.
 \clearpage
 \section{Implementation}
 \label{sec:Ergebnisse}
@@ -36,6 +51,7 @@ Firebase selbst bietet 2 Datenbanken Varianten an, aus welchen ich mich für ein
 
 \subsection{Firebase Projekt erstellen}
 Zuerst muss also ein Firebase-Projekt angelegt werden. Dazu wird nach der Erfolgreichen Registrierung bei Firebase auf der Website auf ''Create new Project'' geklickt. 
+
 Anschließend kann man sich einen Namen für das Projekt aussuchen. Nachdem das Projekt erstellt wurde kann über die ''Add Firebase to your Android App'' und der Angabe des Package Namen (bei mir firebase.com.shoppinglistapp), welcher im Projekt verwendet wird ein google-services.json File heruntergeladen werden.
 
 \subsection{Adroid App Projekt erstellen}

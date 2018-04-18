@@ -1,9 +1,10 @@
 \babel@toc {ngerman}{}
-\contentsline {figure}{\numberline {1}{\ignorespaces Rules of RealtimeDB\relax }}{4}{figure.caption.4}
-\contentsline {figure}{\numberline {2}{\ignorespaces Main Application UI\relax }}{5}{figure.caption.5}
-\contentsline {figure}{\numberline {3}{\ignorespaces ListView\relax }}{8}{figure.caption.6}
-\contentsline {figure}{\numberline {4}{\ignorespaces Verwendete Custom Icons\relax }}{9}{figure.caption.7}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Rotes X Icon}}}{9}{figure.caption.7}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Shoppingcart Icon}}}{9}{figure.caption.7}
-\contentsline {figure}{\numberline {5}{\ignorespaces Emulator Screenshot\relax }}{10}{figure.caption.8}
-\contentsline {figure}{\numberline {6}{\ignorespaces Firebase Console\relax }}{11}{figure.caption.9}
+\contentsline {figure}{\numberline {1}{\ignorespaces Clent-Serevr Architektur\relax }}{3}{figure.caption.4}
+\contentsline {figure}{\numberline {2}{\ignorespaces Rules of RealtimeDB\relax }}{5}{figure.caption.5}
+\contentsline {figure}{\numberline {3}{\ignorespaces Main Application UI\relax }}{6}{figure.caption.6}
+\contentsline {figure}{\numberline {4}{\ignorespaces ListView\relax }}{9}{figure.caption.7}
+\contentsline {figure}{\numberline {5}{\ignorespaces Verwendete Custom Icons\relax }}{10}{figure.caption.8}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Rotes X Icon}}}{10}{figure.caption.8}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Shoppingcart Icon}}}{10}{figure.caption.8}
+\contentsline {figure}{\numberline {6}{\ignorespaces Emulator Screenshot\relax }}{11}{figure.caption.9}
+\contentsline {figure}{\numberline {7}{\ignorespaces Firebase Console\relax }}{12}{figure.caption.10}
