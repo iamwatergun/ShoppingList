@@ -1,0 +1,28 @@
+\BOOKMARK [1][-]{section.1}{Einf\374hrung}{}% 1
+\BOOKMARK [2][-]{subsection.1.1}{Ziele}{section.1}% 2
+\BOOKMARK [2][-]{subsection.1.2}{Voraussetzungen}{section.1}% 3
+\BOOKMARK [2][-]{subsection.1.3}{Aufgabenstellung}{section.1}% 4
+\BOOKMARK [1][-]{section.2}{Vergleich}{}% 5
+\BOOKMARK [2][-]{subsection.2.1}{Firebase}{section.2}% 6
+\BOOKMARK [2][-]{subsection.2.2}{Parse Server}{section.2}% 7
+\BOOKMARK [2][-]{subsection.2.3}{DeltaDB}{section.2}% 8
+\BOOKMARK [1][-]{section.3}{Implementation}{}% 9
+\BOOKMARK [2][-]{subsection.3.1}{Firebase Projekt erstellen}{section.3}% 10
+\BOOKMARK [2][-]{subsection.3.2}{Adroid App Projekt erstellen}{section.3}% 11
+\BOOKMARK [2][-]{subsection.3.3}{Firebase mit Projekt verbinden}{section.3}% 12
+\BOOKMARK [2][-]{subsection.3.4}{Firebase auf Testverion setzen}{section.3}% 13
+\BOOKMARK [2][-]{subsection.3.5}{build.Gradle}{section.3}% 14
+\BOOKMARK [2][-]{subsection.3.6}{Internetzugriff}{section.3}% 15
+\BOOKMARK [2][-]{subsection.3.7}{Strings.xml}{section.3}% 16
+\BOOKMARK [2][-]{subsection.3.8}{Main Activity}{section.3}% 17
+\BOOKMARK [3][-]{subsubsection.3.8.1}{Main Activity Layout}{subsection.3.8}% 18
+\BOOKMARK [3][-]{subsubsection.3.8.2}{Main Activity Java}{subsection.3.8}% 19
+\BOOKMARK [2][-]{subsection.3.9}{RecyclerView}{section.3}% 20
+\BOOKMARK [3][-]{subsubsection.3.9.1}{RecyclerViewHolders.java}{subsection.3.9}% 21
+\BOOKMARK [2][-]{subsection.3.10}{List View}{section.3}% 22
+\BOOKMARK [3][-]{subsubsection.3.10.1}{Custom Icons}{subsection.3.10}% 23
+\BOOKMARK [2][-]{subsection.3.11}{Task}{section.3}% 24
+\BOOKMARK [1][-]{section.4}{Ausf\374hren}{}% 25
+\BOOKMARK [2][-]{subsection.4.1}{Emulator}{section.4}% 26
+\BOOKMARK [2][-]{subsection.4.2}{Firebase Konsole}{section.4}% 27
+\BOOKMARK [2][-]{subsection.4.3}{APK}{section.4}% 28

@@ -1,5 +1,33 @@
 %!TEX root=../document.tex
+\section{Vergleich}
+\subsection{Firebase}
+Firebase biete eine synchrone Plattform um Apps zu entwickeln. Der Grundgedanke hinter Firebase ist die Entwicklung mit häufigen live-Updates (also während der Laufzeit). Die Daten in Firebase Datenbank werden als JSON Files abgespeichert. Außerdem ist die Firebase DB in der CLoud und somit kann von überall ein Zugriff erfolgen.
 
+Firebase bietet durch den Einsatz einer Zentralen \textit{Realtime Database} die Funktion, dass sämtliche Clients sowie die Datenbank während der Laufzeit aktuell gehalten (synchronisiert) werden. 
+
+\subsection{Parse Server}
+Parse Server ist die Open-Source Version von Parse und wurde von Facebook entwickelt. Die Infrastruktur von Parse Server läuft auf Node.js, nach dem Aufsetzen der Datenbank und dem Hinzufügen von Dateneinträgen kann über den Einsatz von \textit{Express Web App} extrem simpel ein Client erstellt werden. (fast keine Code Änderungen notwendig)
+
+So wie Parse nutzt Parse Server zum speichern von Daten MongoDB und zum speichern von File-Systemen Amazon S3 buckets.
+
+Das Filesystem, in welchem die Daten letztendlich gespeichert werden kann vom User angegeben werden. Jedoch wird JSON empfohlen.
+
+Das Dashboard von Parse Server biete dem User die Möglichkeit die Apps zu Verwalten und zu Konfigurieren, sowie Push Nachrichten zu senden.
+
+Es können sogenannte ''live-Queries'' erstellt werden, die bei der Abänderung von bestimmten Daten direkt eine Query ausführen. Somit erspart sich der User manuelle Querys.
+
+
+\subsection{DeltaDB}
+DeltaDB ist ähnlich zu Firebase weist jedoch ein paar Unterscheide auf:
+\begin{itemize}
+	\item Geschrieben in JavaScript
+	\item Client schreibt in eine lokale Oflline DB und aktualisiert beim Verbinden mit dem Internet
+	\item ist letzendlich Konsistent
+	\item Extrem Skalierbar
+	\item Hoch Verfügbar
+	
+\end{itemize}
+\clearpage
 \section{Implementation}
 \label{sec:Ergebnisse}
 Zur Synchroniserung der Daten über sämtliche Clients wurde Firebase verwendet. Firebase ist eine NoSql Datenbank, synchronisiert sämtliche Daten auf allen Clients und macht diese auch Offline verfügbar. 

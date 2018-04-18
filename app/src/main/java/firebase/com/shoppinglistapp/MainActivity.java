@@ -45,8 +45,8 @@ public class MainActivity extends AppCompatActivity {
                     Toast.makeText(MainActivity.this, "You must enter a task first", Toast.LENGTH_LONG).show();
                     return;
                 }
-                if(enteredTask.length() < 6){
-                    Toast.makeText(MainActivity.this, "Task count must be more than 6", Toast.LENGTH_LONG).show();
+                if(enteredTask.length() < 3){
+                    Toast.makeText(MainActivity.this, "Task count must be more than 3", Toast.LENGTH_LONG).show();
                     return;
                 }
                 Task taskObject = new Task(enteredTask);
